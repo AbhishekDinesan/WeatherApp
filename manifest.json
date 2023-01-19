@@ -1,0 +1,13 @@
+{  
+    "manifest_version": 2,  
+    "name": "Weather Extension",  
+    "description": "Extension that displays the weather at Waterloo Ontario",  
+    "version": "1.0",  
+    "browser_action": {  
+     "default_icon": "logo.png",  
+     "default_popup": "views/weather.pug"  
+    },  
+    "permissions": [  
+     "activeTab"
+    ]  
+   }  
